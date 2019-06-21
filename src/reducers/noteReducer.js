@@ -40,6 +40,7 @@ export const initializeNotes = () => {
     })
   }
 }
+
 export const toggleImportanceOf = (id) => { 
   return {
     type: 'TOGGLE_IMPORTANCE',
